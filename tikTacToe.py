@@ -62,7 +62,7 @@ def nextMove(board):
     for x, y in [[0,2],[1,1],[2,0]]:
         diag2.append(board[x][y])
     if diag2.count("O") == 2 and "" in diag2:
-        board[diag2.index("")][2 - diag1.index("")] = "O"
+        board[diag2.index("")][2 - diag2.index("")] = "O"
         return board
       
     #do the same checks as before but for "X" (aka check for 2 X's and a blank, then play an O)
