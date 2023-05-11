@@ -4,7 +4,7 @@ Created on Thu Feb  9 22:36:47 2023
 
 @author: dodsonj
 """
-#This is my first attempt at a tiktaktoe game - human vs computer
+#This is my second design at a tiktaktoe game - human vs computer
 
 class TicTacToe:
     def __init__(self):
@@ -205,9 +205,4 @@ tic_tac_toe = TicTacToe()
 tic_tac_toe.play()
 
 
-#user_val = input("Enter your move as a number: ")
-#row = int(user_val[0])-1
-#col = int(user_val[1])-1
-#board[row][col] = "X"
-#print_board(board)
             
